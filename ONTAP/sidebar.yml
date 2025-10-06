@@ -1,0 +1,12 @@
+---
+section: ontap
+title: ソフトウェアアップデートを使用する
+entries:
+- title: ONTAPのバージョンを比較して、アップデートのメリットとリスクを理解する
+  url: "/ONTAP/choose-ontap-910-later.html"
+- title: ONTAPブロッキングを修正し、警告を確認します
+  url: "/ONTAP/fix-blockers-warnings.html"
+- title: ONTAPストレージシステムの更新を開始する
+  url: "/ONTAP/update-storage-system.html"
+- title: ONTAPストレージシステムの更新ステータスを検証する
+  url: "/ONTAP/validate-storage-system-update.html"

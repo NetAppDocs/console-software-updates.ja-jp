@@ -1,0 +1,38 @@
+---
+indexpage:
+  title: ソフトウェア更新ドキュメント
+  keywords: software updates, update ONTAP, upgrade ONTAP, ONTAP version, ONTAP 9.8
+  lead: ソフトウェア アップデートにより、お客様はONTAPアップデートを効率化できます。評価、計画、実行のプロセスを自動化します。
+  tiles:
+  - title: 始めましょう
+    links:
+    - title: ソフトウェアアップデートについて学ぶ
+      url: "/get-started/software-updates.html"
+    - title: ソフトウェアアップデートの新機能
+      url: "/release-notes/whats-new.html"
+    - title: クイック スタート
+      url: "/get-started/quick-start-ontap-update.html"
+    - title: 前提条件
+      url: "/get-started/prerequisites-ontap-update.html"
+    - title: ソフトウェアアップデートにログイン
+      url: "/get-started/login-software-updates.html"
+    - title: FAQ
+      url: "/get-started/software-updates-faq.html"
+  - title: ソフトウェアアップデートを使用する
+    links:
+    - title: ONTAPターゲットバージョン9.10以降を選択してください
+      url: "/ONTAP/choose-ontap-910-later.html"
+    - title: ONTAP のブロッキングを修正して認識する
+      url: "/ONTAP/fix-blockers-warnings.html"
+    - title: ONTAPストレージ システムの完全なアップデート
+      url: "/ONTAP/update-storage-system.html"
+    - title: ONTAPストレージシステムの更新ステータスを検証する
+      url: "/ONTAP/validate-storage-system-update.html"
+  - title: ブログとコミュニティ
+    links:
+    - title: NetAppコンソール
+      url: https://www.netapp.com/console
+    - title: NetAppデータサービス
+      url: https://www.netapp.com/data-services/
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/

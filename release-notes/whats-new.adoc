@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: release-notes/whats-new.html 
+keywords: 'software updates, ontap update, what"s new, enhancements' 
+summary: ソフトウェア アップデートで導入された新機能と拡張機能について理解します。 
+---
+= ソフトウェアアップデートの新機能
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ソフトウェア アップデートの新機能について説明します。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXP software updatesはソフトウェアアップデートになりました
+
+BlueXP software updatesの名前がソフトウェア アップデートに変更されました。
+
+NetAppコンソールの左側のナビゲーション バーから、[*Health*] > [*Software updates*] を選択してアクセスできます。
+
+
+
+=== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+== 2025年5月12日
+
+
+
+=== BlueXPアクセスロールが必要
+
+ソフトウェア アップデートをインストールするには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダーまたはプロジェクト管理者*、*ストレージ管理者*、*ストレージ閲覧者*、または *ストレージ正常性スペシャリスト*。ストレージ閲覧者ロールを持つユーザーには、ソフトウェア更新に関連するさまざまな権限がありますが、ソフトウェア更新をインストールすることはできません。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXPアクセス ロールについて学習します。"^]
+
+
+
+== 2025年4月2日
+
+
+
+=== 軽減されたリスク
+
+BlueXP software updatesの概要セクションで、オペレーティング システム アップデートによって軽減できるリスクの合計数を表示できるようになりました。これにより、ユーザーはインストール ベースにおけるセキュリティと安定性の向上を評価できます。
+
+
+
+== 2024年8月7日
+
+
+
+=== ONTAPアップデート
+
+BlueXP software updatesサービスは、リスクを軽減し、顧客がONTAP の機能を最大限に活用できるようにすることで、ユーザーにシームレスな更新エクスペリエンスを提供します。
+
+詳細はこちらlink:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["BlueXP software updates"] 。

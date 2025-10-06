@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: get-started/software-updates-faq.html 
+keywords: ontap update faq, ontap update frequently asked questions, software updates faq, software updates frequently asked questions, troubleshooting 
+summary: ソフトウェア更新に関するよくある質問への回答を表示します。 
+---
+= ソフトウェアアップデートに関するよくある質問
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ソフトウェアの更新について詳しく知りたい場合や、トラブルシューティングに関するサポートが必要な場合は、これらの質問を確認してすぐに回答を得ることができます。
+
+*ソフトウェア更新の URL は何ですか?*
+
+URL については、ブラウザで次のように入力します。 https://console.netapp.com/["https://console.netapp.com/"^] NetAppコンソールにアクセスします。
+
+*ソフトウェアアップデートを使用するにはライセンスが必要ですか?*
+
+NetAppライセンス ファイル (NLF) は必要ありません。
+
+*クラスタのONTAPバージョンを更新した後でも、履歴タブでクラスタを表示できないのはなぜですか?*
+
+クラスターが履歴タブに表示されるまで 2 ～ 3 時間かかります。クラスタのONTAPバージョンが更新されると、 AutoSupportが生成されます。  AutoSupportデータを処理して最新バージョンのONTAPを反映するには 2 ～ 3 時間かかります。
+
+*クラスタのONTAPバージョンを更新した後でも、ソフトウェア更新ダッシュボードに古いバージョンのONTAPが表示されるのはなぜですか?*
+
+クラスターが履歴タブに表示されるまで 2 ～ 3 時間かかります。クラスタのONTAPバージョンが更新されると、 AutoSupportが生成されます。  AutoSupportデータを処理して最新バージョンのONTAPを反映するには 2 ～ 3 時間かかります。
+
+*更新ごとに異なる画面が表示されるのはなぜですか?*
+
+これは、現在のONTAPバージョンと、クラスタ用のコンソール エージェントが利用できないことが原因です。コンソール エージェントはコンソール内でONTAP の更新を実行するため、更新のためにコンソールから移動する必要はありません。コンソール エージェントがない場合は、System Manager にリダイレクトされ、 ONTAPクラスタの認証情報を再入力する必要があります。  ONTAPのさまざまなバージョンのONTAP更新プロセスの詳細については、以下を参照してください。link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["サポートされているONTAPシステム"] 。
+
+*クラスターを検出するには何が必要ですか?*
+
+目的のクラスタに対してONTAPアップデートを実行するには、 ONTAPクラスタ IP とクラスタに接続するための管理者認証情報が必要です。クラスタ検出の一環として、 ONTAP更新が自動的に実行されるようにこれらの詳細を提供する必要があります。
+
+また、組織管理者、フォルダまたはプロジェクト管理者、またはストレージ管理者のいずれかのアクセス ロールも必要です。

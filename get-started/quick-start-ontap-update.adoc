@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: get-started/quick-start-ontap-update.html 
+keywords: get started with ontap update, ontap update quick start, get started with bluexp software updates, software update quick start guide, NetApp Console 
+summary: ONTAPストレージ システムをシームレスかつ迅速に更新し始めましょう。 
+---
+= ソフトウェア アップデートを使用してONTAPをアップデートするクイック スタート
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ソフトウェア アップデートをすぐに開始するために必要な手順の概要を次に示します。各ステップ内のリンクをクリックすると、詳細情報を提供するページに移動します。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1"]前提条件を確認する
+[role="quick-margin-para"]
+link:../get-started/prerequisites-ontap-update.html["システムがこれらの要件を満たしていることを確認してください"] 。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2"]ONTAPストレージシステムを更新する
+[role="quick-margin-para"]
+ONTAPストレージ システムを更新するには、すべてのタスクを完了する必要があります。
+
+[role="quick-margin-list"]
+* link:../ONTAP/choose-ontap-910-later.html["ONTAPターゲットバージョンを識別する"] 。
+* link:../ONTAP/fix-blockers-warnings.html["障害を修正して認識する"] 。
+* link:../ONTAP/update-storage-system.html["ONTAPストレージシステムの完全なアップデート"] 。
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三つ"]次は何?
+[role="quick-margin-para"]
+ONTAPストレージ システムを更新した後、次に実行できる操作は次のとおりです。
+
+[role="quick-margin-para"]
+link:../ONTAP/validate-storage-system-update.html["ONTAPストレージシステムの更新ステータスを検証する"] 。

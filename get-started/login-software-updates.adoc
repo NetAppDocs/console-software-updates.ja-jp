@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: get-started/login-software-updates.html 
+keywords: bluexp login, software updates log in, NetApp Console 
+summary: ログインしてソフトウェアアップデートにアクセスします。 
+---
+= ソフトウェアアップデートにアクセスする
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ソフトウェア アップデートにアクセスするには、 NetAppコンソールにログインする必要があります。
+
+NetAppサポート サイトの認証情報を使用してログインするか、電子メールとパスワードを使用してサインアップしてください。link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["ログインについて詳しくはこちら"^] 。
+
+.手順
+. ウェブブラウザを開いて、link:https://console.netapp.com/["コンソール"^] 。
++
+コンソールにログイン ページが表示されます。
+
+. コンソールにログインします。
+. コンソールの左側のナビゲーションから、*[正常性] > [ソフトウェアの更新]*を選択します。
+

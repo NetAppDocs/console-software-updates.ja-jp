@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/validate-storage-system-update.html 
+keywords: validate status of ontap update, track status of ontap update 
+summary: ONTAP更新のステータスを検証して、次に実行する必要がある手順を決定します。 
+---
+= ONTAPストレージシステムの更新ステータスを検証する
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ソフトウェア アップデートを使用して、 ONTAPアップデートのステータスを検証できます。
+
+.手順
+. コンソールの左側のナビゲーションから、*正常性* > *ソフトウェア更新*を選択します。
+. ONTAP更新のステータスを表示するには、[履歴] タブをクリックします。
+
+
+
+NOTE: クラスターが履歴タブに反映されるまでには 2 ～ 3 時間かかります。

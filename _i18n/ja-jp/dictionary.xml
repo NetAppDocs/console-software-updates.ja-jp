@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="f6f16bb8e1efb9727b0dcf9a90373ffb" category="summary">ONTAPストレージ システムをアップグレードする前に、各ONTAPバージョンの利点とリスクを理解してください。</block>
+  <block id="b75c1aac9aa77f2c871639ef1dfb023d" category="doc">ONTAPのバージョンを比較して、ソフトウェアアップデートを使用するメリットとリスクを理解する</block>
+  <block id="49d68f82813e1841cdc24205608d8fe2" category="paragraph">ストレージ システムのONTAPバージョンを更新する前に、 ONTAPターゲット バージョンに関連する利点とリスクを比較して理解することが非常に重要です。</block>
+  <block id="0634e55ef28524df4ddd4c1ddfd72bdd" category="paragraph">ターゲット バージョンを選択し、現在のバージョンと比較することで、 ONTAPで特定のバージョンに更新する利点を把握できます。また、特定のバージョンのONTAPに更新することで解決されるリスクと、発生する新しいリスク（ある場合）も確認できます。</block>
+  <block id="74083ab8069d07080edb25320474b13b" category="admonition">この機能は、 ONTAP 9.10 以降のバージョンを実行している場合にのみ使用できます。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
+  <block id="2c8105f21aa500d6eefa19e4072f9f91" category="list-text">コンソールの左側のナビゲーションから、*正常性* &gt; *ソフトウェア更新*を選択します。</block>
+  <block id="a3357e3f3f28af2c155b25638df91fdb" category="paragraph">ソフトウェアの更新が必要なクラスターのリストが表示されます。推奨されるターゲット バージョンに更新するか、別のバージョンを選択できます。</block>
+  <block id="61a6d655671eebbd633c1d84fae09e17" category="cell">状況</block>
+  <block id="5e2ad6fd9deb412d871137094ee43ef0" category="cell">操作</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
+  <block id="d595af5345baae69010ca28d3b2a07af" category="paragraph">推奨バージョンにアップデートしたい</block>
+  <block id="d0fe00198465906dc8b10bbe7a0ba622" category="list-text">*ターゲット バージョン* 列で、*バージョンの比較* をクリックして、推奨されるONTAPバージョンに更新した場合の機能上の利点とリスク上の利点を表示します。</block>
+  <block id="384993cefe135934c52ec27ded6a4b00" category="list-text">解決されるリスク、引き続き残るリスク、および更新後に導入される新しいリスクに関する情報を選択して表示します。</block>
+  <block id="dde03ddfea2af6f3d3cbdacf6273f14f" category="list-text">必要に応じて、[更新プランのダウンロード] をクリックして、更新プランのコピーをダウンロードします。</block>
+  <block id="81c582603d9979ae5efc5399c20207bb" category="list-text">更新プロセスを開始するには、[*更新を開始*] をクリックします。</block>
+  <block id="e60aa2a846853b9259eb63596645cf46" category="paragraph">別のバージョンを選択する</block>
+  <block id="ce8713ab9112653cc16cb5634de213b3" category="list-text">*ターゲット バージョン* 列で、ドロップダウンをクリックし、*他のバージョンを選択* を選択します。</block>
+  <block id="5283309105a904a39b6bafe0f67055f3" category="list-text">機能の利点とリスクの利点を表示するには、バージョンを選択します。</block>
+  <block id="0fdb0ceffdc4d2d2cdb1f927a8e4bbe5" category="list-text">更新プロセスを開始するには、[*更新の開始*] を選択します。</block>
+  <block id="8458cbd22efac91a6b68db38492fd62e" category="summary">ONTAPブロッキングを修正し、 ONTAP の更新の完了を妨げている警告を確認します。</block>
+  <block id="26ba8b9b55e65dc6a858f236255efacb" category="doc">ONTAP のアップグレード前にソフトウェア アップデートを使用してすべての障害を修正します</block>
+  <block id="7d73325ccb71b4870e81c3c8734ba56e" category="paragraph">ONTAPストレージ システムのONTAPターゲット バージョンを特定したら、 ONTAPストレージ システムを更新する前に、すべてのブロッキングを修正して確認し、警告を確認する必要があります。</block>
+  <block id="94a69c4493d5709adca25152bd529966" category="paragraph">ソフトウェアを更新する前に、すべてのブロッキングを修正して認識する必要があります。</block>
+  <block id="ba38704965acbf6846952c2bb014de45" category="paragraph">コンソールには、ソフトウェアの更新が必要なクラスターのリストが表示されます。</block>
+  <block id="b9ba69413eb7f3ff93a8fb2231a03014" category="list-text">ストレージ システムのONTAPターゲット バージョンを識別します。  ONTAPターゲットバージョンの識別方法については、以下を参照してください。<block ref="811a6bc111a68a7468006fcebcb17b1a" category="inline-link-macro-rx"></block> 。</block>
+  <block id="33ba4cda6895a31680b2de36d86dab15" category="list-text">ONTAP のターゲット バージョンを決定したら、[*更新の準備*] を選択して更新プロセスを開始します。</block>
+  <block id="921328cf9f5d7f1029ee8f2b5eb6add6" category="paragraph">ブロッキングと警告のリストが表示されます。</block>
+  <block id="0d3e45ea704fa7abdf905562392b0203" category="list-text">ブロッキングを修正するための手順を表示するには、ブロッキングを選択してください。</block>
+  <block id="8aa655b81ac9a54174b8b2f3c0e078b3" category="list-text">提供されている手順を手動で実行して、ブロッカーを修正します。</block>
+  <block id="6a9157b81110d193ae9726acd434a73b" category="list-text">修正されたブロッカーを選択し、「*選択した項目を確認する*」を選択して、ブロッカーが修正されたことを確認します。</block>
+  <block id="deef003c349019061441ab60dd6ecf90" category="admonition">更新を続行するには、すべてのブロックを修正して確認する必要があります。</block>
+  <block id="f1bceb312606e73e3fc3cb05ba0db012" category="list-text">ソフトウェアの更新を続行する前に、*警告*タブを選択して警告を確認してください。</block>
+  <block id="185674eb1bcbdcee59090d2a4854c5bd" category="list-text">修正されたブロッカーを表示するには、[*承認*] タブを選択します。</block>
+  <block id="46ab049c063b4859793fe4d01b477a97" category="list-text">更新プロセスを続行するには、[*更新を続行*] を選択します。</block>
+  <block id="0fd40a88a795a27afa35dc3e7dbce97c" category="summary">新しい機能や強化された機能を活用するには、 ONTAPストレージ システムを更新してください。</block>
+  <block id="b999d3e2ca0d95fc761f8994426c1b75" category="doc">ソフトウェアアップデートを使用してONTAPアップデートを開始する</block>
+  <block id="0ae470cfcd6da9622bf1c34549a18b77" category="paragraph">ONTAP のターゲット バージョンを特定し、すべてのブロッキングを修正して確認したら、 ONTAPストレージ システムの更新を開始できます。</block>
+  <block id="a710a4a4b33a19ce9678b290e8622101" category="paragraph">ソフトウェアの更新が必要なクラスターのリストが表示されます。</block>
+  <block id="71131c9e35974213e2b0a3cbac2fbddc" category="list-text">ONTAPブロッカーを修正して認識します。ブロッキングの修正方法については、以下を参照してください。<block ref="a0c773d092c5c735a87bc32f8b10113b" category="inline-link-macro-rx"></block> 。</block>
+  <block id="84159d0a25239d2d4573172d023c46e7" category="list-text">エンドユーザー使用許諾契約書を読んで同意します。</block>
+  <block id="7e6935bb4ba08bd2b040fec7140cefe8" category="paragraph">ONTAPイメージが取得されるまで待ちます。</block>
+  <block id="b707a048aebf6a3d5685827572cc3de1" category="list-text">更新プロセスを完了するには、[*更新をインストール*] をクリックします。</block>
+  <block id="2086b43ba817368b623c8b845f4a2c86" category="summary">ONTAP更新のステータスを検証して、次に実行する必要がある手順を決定します。</block>
+  <block id="2cffa96ea0fb9d5b545b8cc40a61d4a3" category="doc">ONTAPストレージシステムの更新ステータスを検証する</block>
+  <block id="2d8459ca63cf5a25a15cfe17cb42b99a" category="paragraph">ソフトウェア アップデートを使用して、 ONTAPアップデートのステータスを検証できます。</block>
+  <block id="82eb3f6374cb74069e9ac86a78c4c7b7" category="list-text">ONTAP更新のステータスを表示するには、[履歴] タブをクリックします。</block>
+  <block id="0ca4b31fab05c7c65ce3168c99116299" category="admonition">クラスターが履歴タブに反映されるまでには 2 ～ 3 時間かかります。</block>
+  <block id="a262e6e8b2140ed65b4662f6ea3826e9" category="doc">ONTAPアップデート</block>
+  <block id="bfcca17c4ea8c7320a1a54960ce35444" category="paragraph">BlueXP software updatesサービスは、リスクを軽減し、顧客がONTAP の機能を最大限に活用できるようにすることで、ユーザーにシームレスな更新エクスペリエンスを提供します。</block>
+  <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP software updates</block>
+  <block id="cf3625b0846a5497dd36ab2220da602a" category="paragraph">詳細はこちら<block ref="4ef0c81e219f07a508ae115770245e4e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="f50a226c5a51111405309ae78236d95d" category="doc">軽減されたリスク</block>
+  <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">BlueXP software updatesの概要セクションで、オペレーティング システム アップデートによって軽減できるリスクの合計数を表示できるようになりました。これにより、ユーザーはインストール ベースにおけるセキュリティと安定性の向上を評価できます。</block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="doc">BlueXPアクセスロールが必要</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">BlueXPアクセス ロールについて学習します。</block>
+  <block id="0ba1431a5e1efd67eb75f1a5872b7907" category="paragraph">ソフトウェア アップデートをインストールするには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダーまたはプロジェクト管理者*、*ストレージ管理者*、*ストレージ閲覧者*、または *ストレージ正常性スペシャリスト*。ストレージ閲覧者ロールを持つユーザーには、ソフトウェア更新に関連するさまざまな権限がありますが、ソフトウェア更新をインストールすることはできません。<block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="cd3f28b2e598d8cf73182a1f91e56bd2" category="doc">BlueXP software updatesはソフトウェアアップデートになりました</block>
+  <block id="c427d923073409f1bf94d8ce5a7ec6e8" category="paragraph">BlueXP software updatesの名前がソフトウェア アップデートに変更されました。</block>
+  <block id="6054363caf6b8dcd4fa522e9440e82cd" category="paragraph">NetAppコンソールの左側のナビゲーション バーから、[*Health*] &gt; [*Software updates*] を選択してアクセスできます。</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXPはNetAppコンソールになりました</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">NetAppコンソールのリリースノート</block>
+  <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">変更内容の詳細については、<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> 。</block>
+  <block id="36e0a425c58423615b82b4c7bb2d51a0" category="summary">ログインしてソフトウェアアップデートにアクセスします。</block>
+  <block id="21c06c9477279668bf28a9e4da590a92" category="doc">ソフトウェアアップデートにアクセスする</block>
+  <block id="a37a8670b1f569f8fd4ac2c2a87ec534" category="paragraph">ソフトウェア アップデートにアクセスするには、 NetAppコンソールにログインする必要があります。</block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link-macro">ログインについて詳しくはこちら</block>
+  <block id="230d35f4908eaf75941424e12900b125" category="paragraph">NetAppサポート サイトの認証情報を使用してログインするか、電子メールとパスワードを使用してサインアップしてください。<block ref="b81c2771e4fb9546e28e2b4e920d2ca5" category="inline-link-macro-rx"></block> 。</block>
+  <block id="bccaa4aa80831b76c11240a16447975f" category="inline-link-macro">コンソール</block>
+  <block id="70eb71406501e224ffe5e1e4571fcc65" category="list-text">ウェブブラウザを開いて、<block ref="24972d13214bf960aed8a7602883d866" category="inline-link-macro-rx"></block> 。</block>
+  <block id="37714a89b896f344ab832a30a2967dd8" category="paragraph">コンソールにログイン ページが表示されます。</block>
+  <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">コンソールにログインします。</block>
+  <block id="3b16a9fc9b35a1c097a64ed8f9fc29ce" category="list-text">コンソールの左側のナビゲーションから、*[正常性] &gt; [ソフトウェアの更新]*を選択します。</block>
+  <block id="20b41c007263bf3cb834352319595be6" category="summary">ONTAP の更新を続行する前に、前提条件と要件を確認してください。</block>
+  <block id="31dc6a15adf8edc01571240dc04fa15b" category="doc">ソフトウェアアップデートを使用してONTAPを更新する準備をする</block>
+  <block id="64b0076e7811183337cd856e7da0cf58" category="paragraph">ONTAP の更新を続行する前に、前提条件と要件を確認する必要があります。ソフトウェア アップデートを使用すると、システム、ログイン、ネットワーク アクセス、および Web ブラウザーの準備状況を確認できます。</block>
+  <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">必要なNetAppコンソール ロール:</block>
+  <block id="34333d2783171ddc2c4a2d45b04576db" category="inline-link-macro">コンソール アクセス ロールについて学習します。</block>
+  <block id="ce1e7e666008846668ca8408c7c607ee" category="paragraph">組織管理者、フォルダまたはプロジェクト管理者、ストレージ管理者、ストレージ閲覧者、またはシステムヘルススペシャリスト。<block ref="42df8f700eadc46d3f2849494d83725a" category="inline-link-macro-rx"></block></block>
+  <block id="29ce97647593ada6d100b722b3a51559" category="paragraph">ソフトウェア アップデートを使用するには、システムがすべての要件を満たしていることを確認する必要があります。</block>
+  <block id="23753a7836eeb4045452e66e687dbad6" category="list-text">コンソールにシステムがセットアップされます。</block>
+  <block id="0a97d1300ce9361165541c64b6bd10b7" category="list-text">ソフトウェア更新の実行中は、目的のクラスターの管理者資格情報が使用可能です。</block>
+  <block id="b34cd7f587984e9b254885f6d8640801" category="list-text">クラスター内のすべてのノードがAutoSupportデータを送信しています。</block>
+  <block id="27eb16a8f5038a8a66d0aec86d022bbd" category="list-text">すべてのノードはONTAP 9.10 以降のバージョンで実行されている必要があります。</block>
+  <block id="8cb2d0d931dcf081c2e6cdb9235d0efa" category="list-text">ノードはMetroCluster構成内にあってはいけません。</block>
+  <block id="2dc7ae12158353c62d51898b1414574d" category="summary">ONTAPストレージ システムをシームレスかつ迅速に更新し始めましょう。</block>
+  <block id="798a6e52e04dbe32b660de894b56e6ec" category="doc">ソフトウェア アップデートを使用してONTAPをアップデートするクイック スタート</block>
+  <block id="84d8735e89be78d4528fdfa1c141e25a" category="paragraph">ソフトウェア アップデートをすぐに開始するために必要な手順の概要を次に示します。各ステップ内のリンクをクリックすると、詳細情報を提供するページに移動します。</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>前提条件を確認する</block>
+  <block id="8245d68da46718af8e64343032f76d49" category="inline-link-macro">システムがこれらの要件を満たしていることを確認してください</block>
+  <block id="4970ba9e7bcfdaa30d4edb6a47f6aff5" category="paragraph"><block ref="0d4b5f251aefb8ae931ed1812a4e92d6" category="inline-link-macro-rx"></block> 。</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2</block>
+  <block id="c70be312b56de441aa18134a66910283" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>ONTAPストレージシステムを更新する</block>
+  <block id="8f58f58fe7eea7cb206fb56f08f86519" category="paragraph">ONTAPストレージ システムを更新するには、すべてのタスクを完了する必要があります。</block>
+  <block id="826fb5e9f8960f11bd43ffdb851cd6ec" category="inline-link-macro">ONTAPターゲットバージョンを識別する</block>
+  <block id="222c85c08b5a96f00b67ecc9a862d8e3" category="list-text"><block ref="56952887698b933e80133d586b291f77" category="inline-link-macro-rx"></block> 。</block>
+  <block id="34901ddbf2069e3a9f4f51ac2932a5f0" category="inline-link-macro">障害を修正して認識する</block>
+  <block id="76c686ca7cefba70f2446a6f2ef444a0" category="list-text"><block ref="56ca2379e58715613fbc3346e3417d9e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="aefddf6f7caf3ec5d9c3b6b26eb75df1" category="inline-link-macro">ONTAPストレージシステムの完全なアップデート</block>
+  <block id="c6134ea619bf0932dd262fee8468d30b" category="list-text"><block ref="92eb7c55943780703f0961bd4e1eac6c" category="inline-link-macro-rx"></block> 。</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三つ</block>
+  <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block>次は何?</block>
+  <block id="a92f42e8a6bb6042f669f3abd9ce4ccc" category="paragraph">ONTAPストレージ システムを更新した後、次に実行できる操作は次のとおりです。</block>
+  <block id="20d07d8fbe66f0a93aa19234a6281583" category="paragraph"><block ref="64ffd4ac1c7206890e581f7b5a3f2be9" category="inline-link-macro-rx"></block> 。</block>
+  <block id="941f5fc8c77cdb1bb6720e3caadbda45" category="summary">ソフトウェア更新に関するよくある質問への回答を表示します。</block>
+  <block id="b33588f2fe268cea60d6a81ad7835c4d" category="doc">ソフトウェアアップデートに関するよくある質問</block>
+  <block id="c2ef1770bf177f2640d7a770ceb5cd90" category="paragraph">ソフトウェアの更新について詳しく知りたい場合や、トラブルシューティングに関するサポートが必要な場合は、これらの質問を確認してすぐに回答を得ることができます。</block>
+  <block id="8d1cd15cf644278ec02f2e4f7fac4a36" category="paragraph">*ソフトウェア更新の URL は何ですか?*</block>
+  <block id="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link"><block ref="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link-rx"></block></block>
+  <block id="06f56497057766b70a1f7bd9c356bd57" category="paragraph">URL については、ブラウザで次のように入力します。<block ref="50afa4cc4e54d55b53b9cfffe1bc930c" category="inline-link-rx"></block> NetAppコンソールにアクセスします。</block>
+  <block id="94d2818b08a97e51d03596f19fbdc1ca" category="paragraph">*ソフトウェアアップデートを使用するにはライセンスが必要ですか?*</block>
+  <block id="5f2ba40ecab933bbf8f2c6806901fc08" category="paragraph">NetAppライセンス ファイル (NLF) は必要ありません。</block>
+  <block id="6a9fe8c909f24f7202b4616f5d777225" category="paragraph">*クラスタのONTAPバージョンを更新した後でも、履歴タブでクラスタを表示できないのはなぜですか?*</block>
+  <block id="acb74063a7a6c957d80c2fbc881d9484" category="paragraph">クラスターが履歴タブに表示されるまで 2 ～ 3 時間かかります。クラスタのONTAPバージョンが更新されると、 AutoSupportが生成されます。  AutoSupportデータを処理して最新バージョンのONTAPを反映するには 2 ～ 3 時間かかります。</block>
+  <block id="fb1a576523e6d98a2637113b1f2ddc77" category="paragraph">*クラスタのONTAPバージョンを更新した後でも、ソフトウェア更新ダッシュボードに古いバージョンのONTAPが表示されるのはなぜですか?*</block>
+  <block id="cd7a9b3aab856990de5540e448854d37" category="paragraph">*更新ごとに異なる画面が表示されるのはなぜですか?*</block>
+  <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="inline-link-macro">サポートされているONTAPシステム</block>
+  <block id="7f31f5ef0d42885602c1d54de2e6d552" category="paragraph">これは、現在のONTAPバージョンと、クラスタ用のコンソール エージェントが利用できないことが原因です。コンソール エージェントはコンソール内でONTAP の更新を実行するため、更新のためにコンソールから移動する必要はありません。コンソール エージェントがない場合は、System Manager にリダイレクトされ、 ONTAPクラスタの認証情報を再入力する必要があります。  ONTAPのさまざまなバージョンのONTAP更新プロセスの詳細については、以下を参照してください。<block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block> 。</block>
+  <block id="301053661b8bcb5b62150d8c97038d47" category="paragraph">*クラスターを検出するには何が必要ですか?*</block>
+  <block id="78a404dc6fcc27f5f6c067b96fa1a926" category="paragraph">目的のクラスタに対してONTAPアップデートを実行するには、 ONTAPクラスタ IP とクラスタに接続するための管理者認証情報が必要です。クラスタ検出の一環として、 ONTAP更新が自動的に実行されるようにこれらの詳細を提供する必要があります。</block>
+  <block id="0a7ea76c19ce14ea769fa96b38086400" category="paragraph">また、組織管理者、フォルダまたはプロジェクト管理者、またはストレージ管理者のいずれかのアクセス ロールも必要です。</block>
+  <block id="b206c05f3143cb536ab2a0783f48a7e8" category="summary">ソフトウェア アップデートを使用してONTAPストレージ システムをシームレスに更新し、新機能や拡張機能を活用します。</block>
+  <block id="937317973346a008aebc8e0e7ec439e2" category="doc">ソフトウェアアップデートについて学ぶ</block>
+  <block id="ea9618a7a451fe8d74afaa5fc8b8501b" category="paragraph">ソフトウェア アップデートを使用すると、顧客がONTAPアップデートを効率化できるようになります。これにより、コストの削減、重要なワークロードの高速化、セキュリティの向上が可能になります。</block>
+  <block id="5e4eb049efb35bf6b88b1bd1ef731a09" category="paragraph">ソフトウェアの更新により、評価、計画、実行のプロセスが自動化されます。インテリジェント アップグレード アドバイザーは、特定のシステムに最適なバージョンを予測し、問題を修正し、効率を改善し、システムのセキュリティを強化するバージョンを推奨して、顧客がニーズを満たす最適なオプションを決定できるようにします。次に、ソフトウェア パッケージを配布し、サポート サービスに依存せずに自動非配布アップグレード (ANDU) を自動的に実行します。</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetAppコンソール</block>
+  <block id="c0af29f3d69966c6e37227018f3ee366" category="paragraph">ソフトウェア アップデートには、 NetAppコンソールからアクセスできます。</block>
+  <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとデータ サービスの集中管理を提供します。NetAppデータ サービスにアクセスして使用するには、コンソールが必要です。管理インターフェースとして、1 つのインターフェースから多数のストレージ リソースを管理できます。コンソール管理者は、企業内のすべてのシステムのストレージとサービスへのアクセスを制御できます。</block>
+  <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">NetAppコンソールの使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムまたはNetAppデータ サービスへの接続を確保するためにクラウドにコンソール エージェントを展開する必要がある場合にのみ料金が発生します。ただし、コンソールからアクセスできる一部のNetAppデータ サービスは、ライセンスまたはサブスクリプションベースです。</block>
+  <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">詳細はこちら<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block>。</block>
+  <block id="9f457dd05c49b0680cc820751e5f05e0" category="paragraph">ONTAP 9.10 以降のバージョンを実行している場合にのみ、ソフトウェア更新を使用してONTAP の更新を完了できます。</block>
+  <block id="41925df988245764ca51e3f019b7e67f" category="paragraph">次の情報は、さまざまなONTAPバージョンのソフトウェア更新プロセスを示しています。</block>
+  <block id="41ca04e9eb8e8b4b1e9ab896420680d1" category="cell">*現在のONTAPバージョン*</block>
+  <block id="f50b087d08c30ad58b6a4e58fec94218" category="cell">*更新プロセス*</block>
+  <block id="ec3d19b838303db83f08c34ee1acef64" category="cell">9.12以上</block>
+  <block id="cf11ab55bd87e367e0fffc998a9fac43" category="cell">ONTAPアップデートのすべての手順はコンソール内で実行されます。</block>
+  <block id="4911e961085841443a38c7723e51db5f" category="cell">9.10～9.12</block>
+  <block id="fe385f63e4159e3390e41f9eeda9cf35" category="inline-link-macro">コンソールエージェントを設定する</block>
+  <block id="457e44cfd5d2481a65965d165183a3bc" category="cell">ONTAPアップデートの準備は、ソフトウェア アップデート画面内で行われます。実際のONTAPアップデートを実行するには、System Manager に移動します。コンソール内でONTAPアップデートのすべての手順を実行するには、<block ref="bce7df831b83d66967fef86874454a8e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="1155c13f250f6538852b47b97dbe4f25" category="cell">9.8～9.10</block>
+  <block id="8a4c9ac4196c389266a1503d3c95d6e7" category="cell">ONTAPアップデートの準備は、ソフトウェア アップデート画面内で行われます。実際のONTAPアップデートを実行するには、System Manager に移動します。</block>
+  <block id="60b64e93a40027428832c857c7a71b2d" category="cell">9.7未満</block>
+  <block id="33aad00fefff1fbc590e315d690c00a8" category="inline-link-macro">ストレージシステムを手動で更新する</block>
+  <block id="a829c0850bfb0d68ecc9eb68603b5023" category="cell">このクラスタでは自動ONTAP更新はサポートされていません。 ONTAP を手動で更新する必要があります。詳細については、以下を参照してください。 <block ref="a1f8498c9b7905b725c4102bd3d5d83c" category="inline-link-macro-rx"></block> 。</block>
+  <block id="d2defbf3afd50085b59a5d594bae7c67" category="section-title">ソフトウェアアップデートを使用する利点</block>
+  <block id="f0daf4a0e66ba6802960eda6390d1d61" category="paragraph">ONTAPストレージ システムを更新すると、ストレージ システムのパフォーマンス、セキュリティ、および機能が向上します。</block>
+  <block id="b99345e3abc797269f14f7b47fa81ccf" category="paragraph">ONTAPストレージ システムを更新すると、次のような利点があります。</block>
+  <block id="702c403ccdc01021f46487913f934cdb" category="list-text">新しいプロトコル、データ サービス、クラウド統合オプションなど、 ONTAPが提供する最新の機能と拡張機能にアクセスできます。</block>
+  <block id="ff5911eb7729deebb1c8642d501d5604" category="list-text">システムの安定性、信頼性、セキュリティに影響を与える可能性のあるバグや脆弱性を修正できます。</block>
+  <block id="63d0120e90448009ab2836abf7b1b7a5" category="list-text">最新のパッチと改善を適用することで、システムのパフォーマンスと効率を最適化できます。</block>
+  <block id="b7a37e1c1d64d306cdbebfe5093202c7" category="list-text">他のNetApp製品、サードパーティ アプリケーション、クラウド プロバイダーとの互換性と相互運用性を確保できます。</block>
+  <block id="2bba882789946cd1d1a2e47e7d673985" category="list-text">NetApp が最新のONTAP OS バージョンに対して提供する継続的なサポートとメンテナンスのメリットを享受できます。</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">料金</block>
+  <block id="b1b0440f75a979fe2d1ec9d044846fd7" category="paragraph">NetApp はソフトウェア アップデートの使用に対して料金を請求しません。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律上の表示</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法的通知から、著作権情報、商標、特許などを確認できます。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp、NetAppのロゴ、NetAppの商標一覧のページに掲載されているマークは、NetApp, Inc.の商標です。その他の会社名と製品名は、それを所有する各社の商標である場合があります。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">現在NetAppが所有する特許の一覧は以下のページから閲覧できます。</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシー ポリシー</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、 NetAppソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が提供されます。</block>
+  <block id="162955ebb9cd03c3997a649285f1ff43" category="summary">ソフトウェア アップデートで導入された新機能と拡張機能について理解します。</block>
+  <block id="8246ee90c34e354e84b19315be956946" category="doc">ソフトウェアアップデートの新機能</block>
+  <block id="83dd7783af400fd6dbe3cb57f8bb15d4" category="paragraph">ソフトウェア アップデートの新機能について説明します。</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
+  <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">2025年4月2日</block>
+  <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024年8月7日</block>
+  <block id="e48486c33f71dc8e173adb6c6fc66485" category="summary">NetApp は、さまざまな方法でNetAppコンソールのサポートを提供します。ナレッジベース (KB) 記事やコミュニティ フォーラムなど、広範な無料のセルフサポート オプションが 24 時間 365 日ご利用いただけます。サポート登録には、Webチケットによるリモートテクニカルサポートも含まれます。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを受ける</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetAppは、 BlueXPとそのクラウドサービスに対して、様々なサポートを提供しています。ナレッジベース（KB）記事やコミュニティフォーラムなど、充実した無料のセルフサポートオプションを24時間365日ご利用いただけます。サポート登録には、Webチケットによるリモートテクニカルサポートも含まれます。</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">クラウドプロバイダーのファイルサービスのサポートを受ける</block>
+  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">クラウド プロバイダーのファイル サービス、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品のBlueXPドキュメントの「ヘルプの取得」を参照してください。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx for ONTAP</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXPとそのストレージ ソリューションおよびサービスに固有のテクニカル サポートを受けるには、以下に説明するサポート オプションを使用してください。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用する</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">以下のオプションは、24 時間 365 日無料でご利用いただけます。</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPドキュメント。</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">ナレッジベース</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">BlueXPナレッジベースを検索して、問題のトラブルシューティングに役立つ記事を見つけます。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">コミュニティ</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXPコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりしてください。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetAppサポートでケースを作成する</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフ サポート オプションに加えて、サポートを有効にした後は、 NetAppサポート スペシャリストと協力して問題を解決することもできます。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">始める前に</block>
+  <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">BlueXPログインに関連付けられた資格情報を管理する方法を学びます</block>
+  <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">*ケースの作成*機能を使用するには、まずNetAppサポート サイトの資格情報をBlueXPログインに関連付ける必要があります。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block> 。</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">シリアル番号を持つONTAPシステムのケースを開く場合は、NSS アカウントがそのシステムのシリアル番号に関連付けられている必要があります。</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">BlueXPで、*ヘルプ &gt; サポート*を選択します。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">*リソース*ページで、テクニカル サポートの下にある利用可能なオプションのいずれかを選択します。</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">電話で誰かと話したい場合は、「電話する」を選択してください。電話をかけることができる電話番号をリストした netapp.com のページに移動します。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">NetAppサポート スペシャリストとのチケットを開くには、[ケースを作成] を選択します。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*サービス*: 問題が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能に関するテクニカル サポートの問題に固有の場合はBlueXP。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*: ストレージに該当する場合は、* Cloud Volumes ONTAP* または * On-Prem* を選択し、関連する作業環境を選択します。</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">作業環境のリストは、サービスのトップバナーで選択したBlueXP組織 (またはアカウント)、プロジェクト (またはワークスペース)、およびコネクタの範囲内にあります。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケースの優先度*: ケースの優先度 (低、中、高、重大) を選択します。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先順位の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスを置きます。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題の説明*: 該当するエラー メッセージや実行したトラブルシューティング手順など、問題の詳細な説明を入力します。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*追加のメールアドレス*:この問題を他の人に知らせたい場合は、追加のメールアドレスを入力してください。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*添付ファイル (オプション)*: 一度に 1 つずつ、最大 5 つの添付ファイルをアップロードします。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルごとに 25 MB までに制限されます。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx、csv です。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">NetAppサポートでケースを作成できる「ケースの作成」フォームのスクリーンショット。</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">終了後の操作</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">サポート ケース番号を示すポップアップが表示されます。NetAppサポート スペシャリストがお客様のケースを確認し、すぐにご連絡いたします。</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">サポート ケースの履歴については、*設定 &gt; タイムライン* を選択し、「サポート ケースの作成」というアクションを探します。右端のボタンを使用すると、アクションを展開して詳細を表示できます。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラー メッセージが表示される場合があります。</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">「選択したサービスに対してケースを作成する権限がありません」</block>
+  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">このエラーは、NSS アカウントとそれに関連付けられているレコード会社が、 BlueXPアカウントのシリアル番号のレコード会社と同じではないことを意味している可能性があります (つまり、960xxxx) または作業環境のシリアル番号。次のいずれかのオプションを使用してサポートを求めることができます。</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内チャットを使用する</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">非技術的なケースを提出する<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">サポートケースを管理する（プレビュー）</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">アクティブおよび解決済みのサポート ケースをBlueXPから直接表示および管理できます。NSS アカウントおよび会社に関連付けられたケースを管理できます。</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">ケース管理はプレビューとして利用できます。今後のリリースでは、このエクスペリエンスを改良し、機能強化を追加する予定です。製品内チャットを使用してフィードバックをお送りください。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">ページ上部のケース管理ダッシュボードには、次の 2 つのビューがあります。</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側のビューには、指定したユーザー NSS アカウントによって過去 3 か月間に開かれたケースの合計が表示されます。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側のビューには、ユーザーの NSS アカウントに基づいて、会社レベルで過去 3 か月間に開かれたケースの合計が表示されます。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">表の結果には、選択したビューに関連するケースが反映されます。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">関心のある列を追加または削除したり、優先度やステータスなどの列の内容をフィルタリングしたりできます。その他の列は並べ替え機能のみを提供します。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">詳細については、以下の手順をご覧ください。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">ケースごとに、ケースメモを更新したり、まだ「クローズ」または「クローズ保留中」ステータスになっていないケースをクローズしたりする機能を提供します。</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">*ケース管理*を選択し、プロンプトが表示されたら、NSS アカウントをBlueXPに追加します。</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">*ケース管理* ページには、 BlueXPユーザー アカウントに関連付けられている NSS アカウントに関連するオープン ケースが表示されます。これは、*NSS 管理* ページの上部に表示される NSS アカウントと同じです。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">必要に応じて、テーブルに表示される情報を変更します。</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">*組織のケース*の下で*表示*を選択すると、会社に関連付けられているすべてのケースが表示されます。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して日付範囲を変更します。</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">ケース管理ページの表の上にあるオプションのスクリーンショット。正確な日付範囲、または過去 7 日間、30 日間、または 3 か月間を選択できます。</block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">「アクティブ」や「クローズ」などの特定のステータスに一致するケースを除外できる、「ステータス」列のフィルター オプションのスクリーンショット。</block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表に表示されるプラスアイコン</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">表に表示される列を変更するには、<block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block>次に、表示する列を選択します。</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">テーブルに表示できる列を示すスクリーンショット。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表の最後の列に表示される3つの点のアイコン</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">既存のケースを管理するには、<block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block>利用可能なオプションのいずれかを選択します。</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースを表示*: 特定のケースに関する詳細をすべて表示します。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートを更新*: 問題に関する追加の詳細を入力するか、*ファイルのアップロード*を選択して最大 5 つのファイルを添付します。</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*ケースを閉じる*: ケースを閉じる理由の詳細を入力し、[*ケースを閉じる*] を選択します。</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">表の最後の列にあるメニューを選択した後に実行できるアクションを示すスクリーンショット。</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">NetAppテクニカル サポートでサポート ケースを開く前に、 NetAppサポート サイト アカウントをNetAppコンソールに追加し、サポートに登録する必要があります。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録する</block>
+  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">BlueXPおよびそのストレージ ソリューションとサービスに固有のテクニカル サポートを受けるには、サポート登録が必要です。Cloud Volumes ONTAPシステムの主要なワークフローを有効にするには、サポート登録も必要です。</block>
+  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">サポートに登録しても、クラウド プロバイダー ファイル サービスに対するNetAppサポートは有効になりません。クラウド プロバイダーのファイル サービス、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品のBlueXPドキュメントの「ヘルプの取得」を参照してください。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にするには、次の 2 つの登録形式があります。</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">BlueXPアカウントのシリアル番号を登録します ( BlueXPのサポート リソース ページにある 20 桁の 960xxxxxxxxx シリアル番号)。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスに対する単一のサポート サブスクリプション ID として機能します。各BlueXPアカウント レベルのサポート サブスクリプションを登録する必要があります。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウド プロバイダーのマーケットプレイスで、サブスクリプションに関連付けられたCloud Volumes ONTAPシリアル番号を登録します (これらは 20 桁の 909201xxxxxxxx シリアル番号です)。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は一般に _PAYGO シリアル番号_ と呼ばれ、 Cloud Volumes ONTAP の展開時にBlueXPによって生成されます。</block>
+  <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">両方のタイプのシリアル番号を登録すると、サポート チケットの開設やケースの自動生成などの機能が有効になります。登録は、以下の説明に従ってNetAppサポート サイト (NSS) アカウントをBlueXPに追加することで完了します。</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">NetAppサポートのためにBlueXPを登録する</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">サポートに登録し、サポート資格を有効にするには、 BlueXP組織 (またはアカウント) 内の 1 人のユーザーがNetAppサポート サイト アカウントをBlueXPログインに関連付ける必要があります。NetAppサポートに登録する方法は、 NetAppサポート サイト (NSS) アカウントをすでにお持ちかどうかによって異なります。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存顧客</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSS アカウントをお持ちのNetApp のお客様の場合は、 BlueXPを通じてサポートに登録するだけです。</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXPコンソールの右上にある設定アイコンを選択し、*資格情報*を選択します。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">*ユーザー資格情報*を選択します。</block>
+  <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">*NSS 資格情報の追加* を選択し、 NetAppサポート サイト (NSS) の認証プロンプトに従います。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが成功したことを確認するには、[ヘルプ] アイコンを選択し、[サポート] を選択します。</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">*リソース* ページには、 BlueXP組織がサポートに登録されていることが表示されます。</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">アカウントのシリアル番号、緑色のチェックボックス、および「サポートに登録済み」というテキストが表示されているスクリーンショット。</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">他のBlueXPユーザーは、 NetAppサポート サイト アカウントをBlueXPログインに関連付けていない場合、同じサポート登録ステータスを表示しないことに注意してください。ただし、これはBlueXP組織がサポートに登録されていないことを意味するものではありません。組織内の 1 人のユーザーがこれらの手順を実行すれば、組織は登録されます。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">既存の顧客だがNSSアカウントがない</block>
+  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">既存のNetApp顧客であり、既存のライセンスとシリアル番号を持っているものの、NSS アカウントを持っていない場合は、NSS アカウントを作成し、それをBlueXPログインに関連付ける必要があります。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetAppサポートサイト ユーザー登録フォーム</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">NetAppサポートサイトのアカウントを作成するには、<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザー レベル (通常は * NetApp顧客/エンド ユーザー*) を選択してください。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">上記で使用したBlueXPアカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">以下の手順を完了して、新しいNSSアカウントをBlueXPログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetAppの新着情報</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetAppを初めて使用し、NSS アカウントをお持ちでない場合は、以下の手順に従ってください。</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">BlueXPコンソールの右上にあるヘルプ アイコンを選択し、*サポート* を選択します。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「サポート」が最初のオプションとしてリストされている「ヘルプ」メニューのスクリーンショット</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページからアカウント ID シリアル番号を見つけます。</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetAppのサポート登録サイト</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">移動先<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>*私は登録済みのNetApp顧客ではありません* を選択します。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールド（赤いアスタリスクが付いているフィールド）に入力します。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">*製品ライン* フィールドで、*Cloud Manager* を選択し、該当する請求プロバイダーを選択します。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順 2 からアカウントのシリアル番号をコピーし、セキュリティ チェックを完了して、NetApp のグローバル データ プライバシー ポリシーを読んだことを確認します。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全な取引を完了するために、指定されたメールボックスに電子メールが直ちに送信されます。検証メールが数分以内に届かない場合は、必ずスパム フォルダーを確認してください。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">メール内からアクションを確認します。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認すると、リクエストがNetAppに送信され、 NetAppサポート サイトのアカウントを作成することが推奨されます。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">上記で使用したアカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより処理速度が向上します。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセス中に、 NetAppから連絡が来るはずです。これは、新規ユーザー向けの 1 回限りのオンボーディング演習です。</block>
+  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">NetAppサポートサイトのアカウントを取得したら、以下の手順を実行してアカウントをBlueXPログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAPサポートに NSS 認証情報を関連付ける</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAPの次の主要なワークフローを有効にするには、 NetAppサポート サイトの認証情報をBlueXP組織に関連付ける必要があります。</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">従量課金制のCloud Volumes ONTAPシステムをサポート対象として登録する</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">システムのサポートを有効にし、 NetAppテクニカル サポート リソースにアクセスするには、NSS アカウントを提供する必要があります。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL（個人ライセンス使用）時にCloud Volumes ONTAP を導入する</block>
+  <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">BlueXP がライセンス キーをアップロードし、購入した期間のサブスクリプションを有効にするには、NSS アカウントを提供する必要があります。これには、期間更新の自動更新が含まれます。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAPソフトウェアを最新リリースにアップグレードする</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSS 資格情報をBlueXP組織に関連付けることは、 BlueXPユーザー ログインに関連付けられている NSS アカウントとは異なります。</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらの NSS 資格情報は、特定のBlueXP組織 ID に関連付けられています。BlueXP組織に属するユーザーは、*サポート &gt; NSS 管理* からこれらの資格情報にアクセスできます。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">顧客レベルのアカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できます。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナー アカウントまたは再販業者アカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できますが、顧客レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">*NSS管理 &gt; NSSアカウントの追加*を選択します。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">プロンプトが表示されたら、[続行] を選択して、Microsoft ログイン ページにリダイレクトします。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp は、サポートとライセンスに固有の認証サービスの ID プロバイダーとして Microsoft Entra ID を使用します。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログイン ページで、 NetAppサポート サイトに登録した電子メール アドレスとパスワードを入力して、認証プロセスを実行します。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">これらのアクションにより、 BlueXP はライセンスのダウンロード、ソフトウェア アップグレードの検証、将来のサポート登録などに NSS アカウントを使用できるようになります。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS アカウントは顧客レベルのアカウントである必要があります (ゲスト アカウントや一時アカウントではありません)。顧客レベルの NSS アカウントを複数持つことができます。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">パートナー レベルのアカウントの場合、NSS アカウントは 1 つだけ存在できます。顧客レベルの NSS アカウントを追加しようとしたときにパートナー レベルのアカウントが存在する場合は、次のエラー メッセージが表示されます。</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「異なるタイプの NSS ユーザーがすでに存在するため、このアカウントでは NSS 顧客タイプは許可されません。」</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存の顧客レベルの NSS アカウントがあり、パートナー レベルのアカウントを追加しようとする場合も同様です。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインが成功すると、 NetApp はNSS ユーザー名を保存します。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平の点のアイコン</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">これは、メールにマッピングされるシステム生成の ID です。*NSS管理*ページでは、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">ログイン認証トークンを更新する必要がある場合は、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするよう求められます。これらのアカウントのトークンは 90 日後に期限切れになることに注意してください。これを知らせる通知が投稿されます。</block>
+  <block id="d864f7e5886b05326127f590ca729cf4" category="sidebar">ソフトウェア アップデートにより、お客様はONTAPアップデートを効率化できます。評価、計画、実行のプロセスを自動化します。</block>
+  <block id="ba0ca2267e76f528aae11a6b57ac57a0" category="sidebar">ソフトウェア更新ドキュメント</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">始めましょう</block>
+  <block id="61622de15d9e54dbffcb1180e85af14a" category="sidebar">ソフトウェアアップデートの新機能</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">クイック スタート</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">前提条件</block>
+  <block id="ddebeb4ac7a6b4f71908c388f89cb0e4" category="sidebar">ソフトウェアアップデートにログイン</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">FAQ</block>
+  <block id="2a06b57f91392744dbf6f7eda93239cb" category="sidebar">ソフトウェアアップデートを使用する</block>
+  <block id="3e01b70f098c97a8e8c6a729636b23d4" category="sidebar">ONTAPターゲットバージョン9.10以降を選択してください</block>
+  <block id="7f0db81aba09a1ad44cbe411b40d1b00" category="sidebar">ONTAP のブロッキングを修正して認識する</block>
+  <block id="ef54c6082f1b8fb3ea432a9b7cdce377" category="sidebar">ONTAPストレージ システムの完全なアップデート</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetAppデータサービス</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
+  <block id="ef748316ed03f8b22c6a2c5fec00f063" category="sidebar">ソフトウェアアップデートドキュメント</block>
+  <block id="dcfbeb8f1660c404fb401cb23dc4a928" category="sidebar">ONTAPのバージョンを比較して、アップデートのメリットとリスクを理解する</block>
+  <block id="49ec4b514e47d3aeca96090e2282a2b0" category="sidebar">ONTAPブロッキングを修正し、警告を確認します</block>
+  <block id="4b826e35792ea987dc5df57d49d94c3e" category="sidebar">ONTAPストレージシステムの更新を開始する</block>
+  <block id="6a3a6a67693146149a85dd92a37f5255" category="sidebar">ソフトウェアアップデートを始める</block>
+  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQ</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリース ノート</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+</blocks>
