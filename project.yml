@@ -18,5 +18,5 @@ sidebar:
   - title: 法律上の表示
     url: "/legal-notices.html"
 product-family:
-  name: Netapp Console
+  name: NetApp Console
   repo: console-family

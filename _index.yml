@@ -31,7 +31,7 @@ indexpage:
   - title: ブログとコミュニティ
     links:
     - title: NetAppコンソール
-      url: https://www.netapp.com/console
+      url: https://www.netapp.com/console/
     - title: NetAppデータサービス
       url: https://www.netapp.com/data-services/
     - title: NetAppコミュニティ
