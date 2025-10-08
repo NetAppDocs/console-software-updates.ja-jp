@@ -15,7 +15,7 @@ summary: ソフトウェア更新に関するよくある質問への回答を�
 
 *ソフトウェア更新の URL は何ですか?*
 
-URL については、ブラウザで次のように入力します。 https://console.netapp.com/["https://console.netapp.com/"^] NetAppコンソールにアクセスします。
+URL については、ブラウザで次のように入力します。 https://console.netapp.com/["https://console.netapp.com/"^] NetApp Consoleにアクセスします。
 
 *ソフトウェアアップデートを使用するにはライセンスが必要ですか?*
 

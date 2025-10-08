@@ -11,7 +11,7 @@ summary: ログインしてソフトウェアアップデートにアクセス�
 
 
 [role="lead"]
-ソフトウェア アップデートにアクセスするには、 NetAppコンソールにログインする必要があります。
+ソフトウェア アップデートにアクセスするには、 NetApp Consoleにログインする必要があります。
 
 NetAppサポート サイトの認証情報を使用してログインするか、電子メールとパスワードを使用してサインアップしてください。link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["ログインについて詳しくはこちら"^] 。
 
