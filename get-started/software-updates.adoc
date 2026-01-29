@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get-started/software-updates.html 
-keywords: ontap 9.10, ontap update, supported systems for ontap update, ontap version, software updates benefits 
+keywords: ontap 9.10.1, ontap update, supported systems for ontap update, ontap version, software updates benefits 
 summary: ソフトウェア アップデートを使用してONTAPストレージ システムをシームレスに更新し、新機能や拡張機能を活用します。 
 ---
 = ソフトウェアアップデートについて学ぶ
@@ -31,7 +31,7 @@ NetApp Consoleの使用を開始するためにライセンスやサブスクリ
 
 == サポートされているONTAPシステム
 
-ONTAP 9.10 以降のバージョンを実行している場合にのみ、ソフトウェア更新を使用してONTAP の更新を完了できます。
+ONTAP 9.10.1 以降のバージョンを実行している場合にのみ、ソフトウェアアップデートを使用して ONTAP アップデートを完了できます。
 
 次の情報は、さまざまなONTAPバージョンのソフトウェア更新プロセスを示しています。
 
@@ -39,17 +39,17 @@ ONTAP 9.10 以降のバージョンを実行している場合にのみ、ソフ
 | *現在のONTAPバージョン* | *更新プロセス* 
 
 
-| 9.12以上 | ONTAPアップデートのすべての手順はコンソール内で実行されます。 
+| 9.12.1以降 | ONTAPアップデートのすべての手順はコンソール内で実行されます。 
 
 
-| 9.10～9.12 | ONTAPアップデートの準備は、ソフトウェア アップデート画面内で行われます。実際のONTAPアップデートを実行するには、System Manager に移動します。コンソール内でONTAPアップデートのすべての手順を実行するには、link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["コンソールエージェントを設定する"] 。 
+| 9.10.1 から 9.12.1 | ONTAPアップデートの準備は、ソフトウェア アップデート画面内で行われます。実際のONTAPアップデートを実行するには、System Manager に移動します。コンソール内でONTAPアップデートのすべての手順を実行するには、link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["コンソールエージェントを設定する"] 。 
 
 
-| 9.8～9.10 | ONTAPアップデートの準備は、ソフトウェア アップデート画面内で行われます。実際のONTAPアップデートを実行するには、System Manager に移動します。 
-
-
-| 9.7未満 | このクラスタでは自動ONTAP更新はサポートされていません。 ONTAP を手動で更新する必要があります。詳細については、以下を参照してください。 link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["ストレージシステムを手動で更新する"] 。 
+| 9.8から9.10.1 | ONTAPアップデートの準備は、ソフトウェア アップデート画面内で行われます。実際のONTAPアップデートを実行するには、System Manager に移動します。 
 |===
+
+NOTE: ソフトウェア更新は Cloud Volumes ONTAP ではサポートされていません。
+
 
 
 == ソフトウェアアップデートを使用する利点

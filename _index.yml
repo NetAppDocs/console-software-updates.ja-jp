@@ -20,7 +20,7 @@ indexpage:
       url: "/get-started/software-updates-faq.html"
   - title: ソフトウェアアップデートを使用する
     links:
-    - title: ONTAPターゲットバージョン9.10以降を選択してください
+    - title: ONTAPターゲットバージョン9.10.1以降を選択してください
       url: "/ONTAP/choose-ontap-910-later.html"
     - title: ONTAP のブロッキングを修正して認識する
       url: "/ONTAP/fix-blockers-warnings.html"
